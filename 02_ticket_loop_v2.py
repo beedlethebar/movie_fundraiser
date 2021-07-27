@@ -5,14 +5,16 @@ name = ""
 count = 0
 MAX_TICKETS = 5
 
-while name != "xxx" and count <= MAX_TICKETS:
-    print("you have {} seats "
-          "left".format(MAX_TICKETS - count))
+while name != "xxx" and count < MAX_TICKETS:
+    if count < 4:
+        print("you have {} seats left".format(MAX_TICKETS - count))
+    else:
+        print("You have one place left")
 
     #Get details...
     name = input("name: ")
     count += 1
-    print ()
+    print()
 
 if count == MAX_TICKETS:
     print("you have sold all the available tickets")
