@@ -6,7 +6,7 @@ count = 0
 MAX_TICKETS = 5
 
 while name != "xxx" and count <= MAX_TICKETS:
-    print("you have {} seats"
+    print("you have {} seats "
           "left".format(MAX_TICKETS - count))
 
     #Get details...
