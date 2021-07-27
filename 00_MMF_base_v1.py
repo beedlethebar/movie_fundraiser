@@ -3,6 +3,8 @@
 
 # Functions go here
 
+# checks for an integer between two values
+def not_blank(question):...
 
 # ********** Main Routine **********
 
